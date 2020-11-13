@@ -1,0 +1,101 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #af6b58;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #af6b58;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: #556052;
+}
+
+hr {
+  border-top: 1em dotted;
+  width: 5%;
+  margin: 5rem auto;
+  color: grey;
+}
+
+.topContainer{
+  background-color: #cbbcb1;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.profile_pic{
+  border-radius: 50%;
+}
+
+.skill_box{
+  width: 25%;
+  display: inline-block;
+}
+
+.skill_img
+{
+  width: 10%;
+  margin-bottom: 0;
+}
+
+.skill_name{
+  margin: 5px auto;
+}
+
+.skill_stars{
+  margin-top: 0;
+}
+
+.middleContainer{
+  background-color: #f2efea;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bottomContainer{
+  background-color: #cbbcb1;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.copywrite{
+  font-size: 0.8em;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #f2efea;
+  font-size: 20px;
+  background: #556052;
+  margin-top: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #849680;
+  text-decoration: none;
+}
